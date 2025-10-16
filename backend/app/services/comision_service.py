@@ -1,7 +1,7 @@
 from typing import List
 from datetime import date
-from backend.app.models.comision import ComisionVendedor, ResumenComisiones
-from backend.app.core.database import db
+from app.models.comision import ComisionVendedor, ResumenComisiones
+from app.core.database import db
 
 
 class ComisionService:

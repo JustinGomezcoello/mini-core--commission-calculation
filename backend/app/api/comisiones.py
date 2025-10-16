@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException
 from typing import List
-from backend.app.models.comision import ReglaComision, FiltroFechas, ResumenComisiones
-from backend.app.services.comision_service import ComisionService
-from backend.app.core.database import db
+from app.models.comision import ReglaComision, FiltroFechas, ResumenComisiones
+from app.services.comision_service import ComisionService
+from app.core.database import db
 
 router = APIRouter()
 

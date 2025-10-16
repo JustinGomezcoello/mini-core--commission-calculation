@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Query
 from typing import List, Optional
 from datetime import date
-from backend.app.models.venta import Venta
-from backend.app.core.database import db
+from app.models.venta import Venta
+from app.core.database import db
 
 router = APIRouter()
 

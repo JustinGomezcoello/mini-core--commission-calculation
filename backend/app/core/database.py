@@ -1,6 +1,6 @@
 from typing import List
 from datetime import date
-from backend.app.models.usuario import Usuario
+from app.models.usuario import Usuario
 from backend.app.models.venta import Venta
 from backend.app.models.comision import ReglaComision
 
