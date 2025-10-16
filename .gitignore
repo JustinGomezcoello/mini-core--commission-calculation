@@ -1,0 +1,9 @@
+# Node modules and cache
+node_modules/
+.cache/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
