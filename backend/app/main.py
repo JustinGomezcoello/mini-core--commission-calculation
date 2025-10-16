@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.app.api import usuarios, ventas, comisiones
+from app.api import usuarios, ventas, comisiones
 import uvicorn
 import os
 
