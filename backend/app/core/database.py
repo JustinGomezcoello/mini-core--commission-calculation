@@ -1,8 +1,8 @@
 from typing import List
 from datetime import date
 from app.models.usuario import Usuario
-from backend.app.models.venta import Venta
-from backend.app.models.comision import ReglaComision
+from app.models.venta import Venta
+from app.models.comision import ReglaComision
 
 
 # Simulando base de datos en memorias
