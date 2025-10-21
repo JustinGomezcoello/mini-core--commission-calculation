@@ -3,8 +3,22 @@
 MiniCore is a web application built with FastAPI (backend) and React + Material UI (frontend), which allows you to automatically calculate and visualize sales commissions for each salesperson within a date range.
 It is designed with a decoupled MVC architecture, allows easy integration of new commission rules, and can be automatically deployed on [Render.com](https://render.com) as a Web Service (backend) and Static Site (frontend).
 
-Explanatory video link: https://www.loom.com/share/a7ff3dc56ec546d5973d86b7ff839058?sid=76100809-3a23-4713-ac4c-de58cb375793
+📹 **Demo Video:**  
+[Watch on Loom](https://www.loom.com/share/a7ff3dc56ec546d5973d86b7ff839058?sid=76100809-3a23-4713-ac4c-de58cb375793)
 
+---
+
+## 📸 Application Screenshots
+
+Below are screenshots that illustrate the main modules of the **MiniCore – Commission Calculation System**:
+
+| Module | Description | Preview |
+|:--|:--|:--|
+| **Module 1 – Home Page** | Displays the main interface where users can filter by date range and calculate commissions. | ![Home Page](./images/module1.png) |
+| **Module 2 – Salespersons Section** | Shows the list of registered salespeople and their respective sales performance. | ![Salespersons](./images/module2.png) |
+| **Module 3 – Sales Section** | Displays all sales records and calculated commissions per vendor. | ![Sales](./images/module3.png) |
+
+---
 ## System Architecture
 ### Backend (Python - FastAPI)
 
